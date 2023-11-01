@@ -6,6 +6,7 @@ import bibi from "../../assets/bibi.png"
 import plus from "../../assets/mais.svg"
 
 
+
 const Nav = () => {
   return (
     <div className={styles.inicio}>
@@ -28,6 +29,22 @@ const Nav = () => {
         <div className={styles.more}>
         <img src={plus} alt="mais" />
         </div>
+            </div>
+            <div className={styles.crie}>
+              <h3>Crie sua primeira playlist</h3>
+              <h5>É fácil , vamos te ajudar.</h5>
+              <button>
+               criar playlist
+              </button>
+            </div>
+            <div className={styles.follow}>
+            <h3>Que tal seguir um podecast novo?</h3>
+              <h5>Avisaremos você sobre os novos episódios.</h5>
+              <button>Explore podcasts</button>
+            </div>
+            <div className={styles.cook}>
+              <h6>Cookies</h6>
+              <button>Portugues do Brasil</button>
             </div>
             </div>
         </div>

@@ -3,6 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import Nav from './componentes/nav/nav'
+import Menu from './componentes/menuplay/mnplay'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -11,6 +12,9 @@ function App() {
     <>
       <div>
         <Nav></Nav>
+      </div>
+      <div>
+        <Menu></Menu>
       </div>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
