@@ -4,7 +4,7 @@ import casa from "../../assets/house.svg"
 import lupa from "../../assets/search.svg"
 import bibi from "../../assets/bibi.png"
 import plus from "../../assets/mais.svg"
-
+import mundo from "../../assets/world.svg"
 
 
 const Nav = () => {
@@ -44,7 +44,9 @@ const Nav = () => {
             </div>
             <div className={styles.cook}>
               <h6>Cookies</h6>
-              <button>Portugues do Brasil</button>
+              <button>Portugues do Brasil
+              <img src={mundo} alt="simbulo mundo" />
+              </button>
             </div>
             </div>
         </div>

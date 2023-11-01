@@ -144,7 +144,10 @@
     background: black;
     color: white;
     border-color: white;
-    margin-left: -10em;
+    margin-left: -6em;
     border-radius: 2em;
+    width: 15em;
 }
-
+.cook button img{
+    width: 10%;
+}
