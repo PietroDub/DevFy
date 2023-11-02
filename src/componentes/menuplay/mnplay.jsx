@@ -10,12 +10,25 @@ const Menu = () => {
       <div className={styles.setas}>
          <img src={setaesq} alt="left" />
        <img src={setadir} alt="rigth" />
+       </div>
        <div className={styles.logi}>
-        
-       </div>
-       </div>
-       </div>
 
+        <button>inscrever-se</button>
+        </div>
+        <div className={styles.join}>
+        <button>Entrar</button>
+          </div>
+       </div>
+  
+
+
+
+
+
+
+  <div className={styles.showallmaster}>
+    <h2>Playlists do Spotfy</h2>
+  </div>
     </div>
   )
 }

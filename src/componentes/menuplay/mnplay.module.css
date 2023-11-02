@@ -8,10 +8,46 @@
     border-radius: 10px;
 }
 .setas img{
-    width: 1%;
-    gap: 40px;
-    padding-right: 30px;
+    width: 2em;
+    height: 2em;
+    margin-right: 20px;
     float: left;
     margin-left: 2em;
     margin-top: 1.5em;
+    background: rgba(0, 0, 0, 0.555);
+    border-radius: 50px
+}
+.logi button{
+    background: #121212;
+    color: #bababa;
+    border-radius: 20px;
+    right: 0;
+    position: absolute;
+    margin-right: 15em;
+    top: 25%;
+    outline: none !important ;
+}
+.join button{
+    background: white;
+    color: #121212;
+    border-radius: 20px;
+    right: 0;
+    position: absolute;
+    top: 25%;
+    margin-right: 5em;
+}
+
+.showallmaster{
+    background: #121212;
+    width: 90em;
+    height: 80%;
+    top: 5.9em;
+    position: absolute;
+    margin-left: -22em;
+    border-radius: 10px;
+}
+.showallmaster h2{
+    left: 0;
+    position: absolute;
+    margin-left: 2em;
 }
