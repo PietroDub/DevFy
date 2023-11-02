@@ -1,3 +1,4 @@
+
 .setinhas{
     background: #121212;
     width: 90em;
@@ -5,8 +6,10 @@
     top: 15px;
     position: absolute;
     margin-left: -22em;
-    border-radius: 10px;
+    border-top-left-radius: 20px; /* Define o raio da borda superior esquerda */
+    border-top-right-radius: 20px; /* Define o raio da borda superior direita */
 }
+
 .setas img{
     width: 2em;
     height: 2em;
@@ -26,6 +29,10 @@
     margin-right: 15em;
     top: 25%;
     outline: none !important ;
+    transition: transform 0.3s;
+}
+.logi button:hover {
+    transform: scale(1.1); /* Aumenta em 10% quando o mouse passar por cima */
 }
 .join button{
     background: white;
@@ -35,19 +42,64 @@
     position: absolute;
     top: 25%;
     margin-right: 5em;
+    transition: transform 0.3s;
+}
+.join button:hover {
+    transform: scale(1.1); /* Aumenta em 10% quando o mouse passar por cima */
 }
 
+
 .showallmaster{
-    background: #121212;
+    background: linear-gradient(to bottom, #201f1f 10%, #121212 90%);
     width: 90em;
     height: 80%;
     top: 5.9em;
     position: absolute;
     margin-left: -22em;
-    border-radius: 10px;
 }
 .showallmaster h2{
     left: 0;
     position: absolute;
     margin-left: 2em;
+    transition: text-decoration 0.3s;
+}
+.showallmaster h2:hover{
+    text-decoration: underline;
+}
+
+.showall h4{
+    color: #bababa;
+    right: 0;
+    position: absolute;
+    padding-right: 5em;
+    transition: text-decoration 0.3s;
+}
+.showall h4:hover{
+    text-decoration: underline;
+}
+
+
+.musicCard{
+    background: linear-gradient(to bottom, #121212 10%, #201f1f 90%);
+    width: 12em;
+    height: 17em;
+    position: absolute;
+    left: 10%;
+    top: 6em;
+    transform: translateX(-50%);
+    border-radius: 10px;
+transition: filter 0.3s; /* Adicione uma transição suave para a animação */
+}
+
+.musicCard:hover {
+    filter: brightness(1.2); /* Aumenta o brilho ao passar o mouse */
+}
+.musicCard img{
+    width: 70%;
+    border-radius: 1.5em ;
+    margin-top: 1em;
+}
+
+.musicCard h5{
+    color: #bababa;
 }

@@ -1,7 +1,7 @@
 import styles from "./mnplay.module.css"
 import setaesq from "../../assets/Vector.svg"
 import setadir from "../../assets/Vector (1).svg"
-
+import tod from "../../assets/image12.svg"
 
 const Menu = () => {
   return (
@@ -22,12 +22,17 @@ const Menu = () => {
   
 
 
-
-
-
-
   <div className={styles.showallmaster}>
     <h2>Playlists do Spotfy</h2>
+    <div className={styles.showall}>
+      <h4>Mostrar tudo</h4>
+    </div>
+    <div className={styles.musicCard}>
+      <img src={tod} alt="as melhores de hj" />
+      <h3>Today Top Hits</h3>
+      <h5>Taylor Swift on top of hottest 50!
+      </h5>
+    </div>
   </div>
     </div>
   )
