@@ -2,6 +2,11 @@ import styles from "./mnplay.module.css"
 import setaesq from "../../assets/Vector.svg"
 import setadir from "../../assets/Vector (1).svg"
 import tod from "../../assets/image12.svg"
+import rap from "../../assets/image 13.svg"
+import allout from "../../assets/image 14.svg"
+import rockclassics from "../../assets/image 15.svg"
+import chill from "../../assets/image 16.svg"
+import latino from "../../assets/image 17.svg"
 
 const Menu = () => {
   return (
@@ -37,42 +42,43 @@ const Menu = () => {
 
 
     <div className={styles.musicCard1}>
-      <img src={tod} alt="trocar a imagem" />
-      <h3>TITLE</h3>
-      <h5>text
+      <img src={rap} alt="trocar a imagem" />
+      <h3>RapCaviar</h3>
+      <h5>Music from Gucci Mane ,Kodak Black a...
       </h5>
     </div>
 
 
 
     <div className={styles.musicCard2}>
-      <img src={tod} alt="trocar a imagem" />
-      <h3>TITLE</h3>
-      <h5>text
+      <img src={allout} alt="trocar a imagem" />
+      <h3>All Out 2010s</h3>
+      <h5>The biggest songs of the 2010s
       </h5>
     </div>
 
 
   <div className={styles.musicCard3}>
-      <img src={tod} alt="trocar a imagem" />
-      <h3>TITLE</h3>
-      <h5>text
+      <img src={rockclassics} alt="trocar a imagem" />
+      <h3>Rock Classics</h3>
+      <h5>Rock legends & epic songs that continue t..
       </h5>
     </div>
 
   <div className={styles.musicCard4}>
-      <img src={tod} alt="trocar a imagem" />
-      <h3>TITLE</h3>
-      <h5>text
+      <img src={chill} alt="trocar a imagem" />
+      <h3>Chill</h3>
+      <h5>Kick back to the best and recent chill...
       </h5>
     </div>
 
     <div className={styles.musicCard5}>
-      <img src={tod} alt="trocar a imagem" />
-      <h3>TITLE</h3>
-      <h5>text
+      <img src={latino} alt="trocar a imagem" />
+      <h3>Viva Latino</h3>
+      <h5>Todays top Latin hits, elevando nuestra..
       </h5>
     </div>
+
     </div>
   </div>
     </div>

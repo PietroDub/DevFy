@@ -89,7 +89,9 @@
     border-radius: 10px;
 transition: filter 0.3s; /* Adicione uma transição suave para a animação */
 }
-
+.musicCard h3{
+    margin-left: -30px;
+}
 .musicCard:hover {
     filter: brightness(1.2); /* Aumenta o brilho ao passar o mouse */
 }
@@ -113,7 +115,9 @@ transition: filter 0.3s; /* Adicione uma transição suave para a animação */
     border-radius: 10px;
 transition: filter 0.3s; /* Adicione uma transição suave para a animação */
 }
-
+.musicCard1 h3{
+    margin-left: -30px;
+}
 .musicCard1:hover {
     filter: brightness(1.2); /* Aumenta o brilho ao passar o mouse */
 }
@@ -137,7 +141,9 @@ transition: filter 0.3s; /* Adicione uma transição suave para a animação */
     border-radius: 10px;
 transition: filter 0.3s; /* Adicione uma transição suave para a animação */
 }
-
+.musicCard2 h3{
+    margin-left: -30px;
+}
 .musicCard2:hover {
     filter: brightness(1.2); /* Aumenta o brilho ao passar o mouse */
 }
@@ -161,7 +167,9 @@ transition: filter 0.3s; /* Adicione uma transição suave para a animação */
     border-radius: 10px;
 transition: filter 0.3s; /* Adicione uma transição suave para a animação */
 }
-
+.musicCard3 h3{
+    margin-left: -30px;
+}
 .musicCard3:hover {
     filter: brightness(1.2); /* Aumenta o brilho ao passar o mouse */
 }
@@ -185,7 +193,9 @@ transition: filter 0.3s; /* Adicione uma transição suave para a animação */
     border-radius: 10px;
 transition: filter 0.3s; /* Adicione uma transição suave para a animação */
 }
-
+.musicCard4 h3{
+    margin-left: -30px;
+}
 .musicCard4:hover {
     filter: brightness(1.2); /* Aumenta o brilho ao passar o mouse */
 }
@@ -209,7 +219,9 @@ transition: filter 0.3s; /* Adicione uma transição suave para a animação */
     border-radius: 10px;
 transition: filter 0.3s; /* Adicione uma transição suave para a animação */
 }
-
+.musicCard5 h3{
+    margin-left: -30px;
+}
 .musicCard5:hover {
     filter: brightness(1.2); /* Aumenta o brilho ao passar o mouse */
 }
