@@ -78,7 +78,6 @@
     text-decoration: underline;
 }
 
-
 .musicCard{
     background: linear-gradient(to bottom, #121212 10%, #201f1f 90%);
     width: 12em;
@@ -101,5 +100,125 @@ transition: filter 0.3s; /* Adicione uma transição suave para a animação */
 }
 
 .musicCard h5{
+    color: #bababa;
+}
+.musicCard1{
+    background: linear-gradient(to bottom, #121212 10%, #201f1f 90%);
+    width: 12em;
+    height: 17em;
+    position: absolute;
+    left: 25%;
+    top: 6em;
+    transform: translateX(-50%);
+    border-radius: 10px;
+transition: filter 0.3s; /* Adicione uma transição suave para a animação */
+}
+
+.musicCard1:hover {
+    filter: brightness(1.2); /* Aumenta o brilho ao passar o mouse */
+}
+.musicCard1 img{
+    width: 70%;
+    border-radius: 1.5em ;
+    margin-top: 1em;
+}
+
+.musicCard1 h5{
+    color: #bababa;
+}
+.musicCard2{
+    background: linear-gradient(to bottom, #121212 10%, #201f1f 90%);
+    width: 12em;
+    height: 17em;
+    position: absolute;
+    left: 40%;
+    top: 6em;
+    transform: translateX(-50%);
+    border-radius: 10px;
+transition: filter 0.3s; /* Adicione uma transição suave para a animação */
+}
+
+.musicCard2:hover {
+    filter: brightness(1.2); /* Aumenta o brilho ao passar o mouse */
+}
+.musicCard2 img{
+    width: 70%;
+    border-radius: 1.5em ;
+    margin-top: 1em;
+}
+
+.musicCard2 h5{
+    color: #bababa;
+}
+.musicCard3{
+    background: linear-gradient(to bottom, #121212 10%, #201f1f 90%);
+    width: 12em;
+    height: 17em;
+    position: absolute;
+    left: 55%;
+    top: 6em;
+    transform: translateX(-50%);
+    border-radius: 10px;
+transition: filter 0.3s; /* Adicione uma transição suave para a animação */
+}
+
+.musicCard3:hover {
+    filter: brightness(1.2); /* Aumenta o brilho ao passar o mouse */
+}
+.musicCard3 img{
+    width: 70%;
+    border-radius: 1.5em ;
+    margin-top: 1em;
+}
+
+.musicCard3 h5{
+    color: #bababa;
+}
+.musicCard4{
+    background: linear-gradient(to bottom, #121212 10%, #201f1f 90%);
+    width: 12em;
+    height: 17em;
+    position: absolute;
+    left: 70%;
+    top: 6em;
+    transform: translateX(-50%);
+    border-radius: 10px;
+transition: filter 0.3s; /* Adicione uma transição suave para a animação */
+}
+
+.musicCard4:hover {
+    filter: brightness(1.2); /* Aumenta o brilho ao passar o mouse */
+}
+.musicCard4 img{
+    width: 70%;
+    border-radius: 1.5em ;
+    margin-top: 1em;
+}
+
+.musicCard4 h5{
+    color: #bababa;
+}
+.musicCard5{
+    background: linear-gradient(to bottom, #121212 10%, #201f1f 90%);
+    width: 12em;
+    height: 17em;
+    position: absolute;
+    left: 85%;
+    top: 6em;
+    transform: translateX(-50%);
+    border-radius: 10px;
+transition: filter 0.3s; /* Adicione uma transição suave para a animação */
+}
+
+.musicCard5:hover {
+    filter: brightness(1.2); /* Aumenta o brilho ao passar o mouse */
+}
+.musicCard5 img{
+    width: 70%;
+    border-radius: 1.5em ;
+    margin-top: 1em;
+}
+
+.musicCard5 h5{
     color: #bababa;
 }

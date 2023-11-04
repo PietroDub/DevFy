@@ -27,11 +27,52 @@ const Menu = () => {
     <div className={styles.showall}>
       <h4>Mostrar tudo</h4>
     </div>
+    <div className={styles.msicall}>
     <div className={styles.musicCard}>
       <img src={tod} alt="as melhores de hj" />
       <h3>Today Top Hits</h3>
       <h5>Taylor Swift on top of hottest 50!
       </h5>
+    </div>
+
+
+    <div className={styles.musicCard1}>
+      <img src={tod} alt="trocar a imagem" />
+      <h3>TITLE</h3>
+      <h5>text
+      </h5>
+    </div>
+
+
+
+    <div className={styles.musicCard2}>
+      <img src={tod} alt="trocar a imagem" />
+      <h3>TITLE</h3>
+      <h5>text
+      </h5>
+    </div>
+
+
+  <div className={styles.musicCard3}>
+      <img src={tod} alt="trocar a imagem" />
+      <h3>TITLE</h3>
+      <h5>text
+      </h5>
+    </div>
+
+  <div className={styles.musicCard4}>
+      <img src={tod} alt="trocar a imagem" />
+      <h3>TITLE</h3>
+      <h5>text
+      </h5>
+    </div>
+
+    <div className={styles.musicCard5}>
+      <img src={tod} alt="trocar a imagem" />
+      <h3>TITLE</h3>
+      <h5>text
+      </h5>
+    </div>
     </div>
   </div>
     </div>
