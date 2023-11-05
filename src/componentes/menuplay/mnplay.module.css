@@ -18,7 +18,11 @@
     margin-left: 2em;
     margin-top: 1.5em;
     background: rgba(0, 0, 0, 0.555);
-    border-radius: 50px
+    border-radius: 50px;
+    transition: transform 0.3s;
+}
+.setas img:hover{
+        transform: scale(1.1);
 }
 .logi button{
     background: #121212;

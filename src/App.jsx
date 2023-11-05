@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Nav from './componentes/nav/nav'
 import Menu from './componentes/menuplay/mnplay'
+import Footer from './componentes/footer/footer'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -16,6 +17,7 @@ function App() {
       <div>
         <Menu></Menu>
       </div>
+      <Footer></Footer>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
