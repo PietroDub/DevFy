@@ -7,6 +7,7 @@ const Footer = () => {
     <h4>inscreva-se para curtir música ilimitada e podcasts só com alguns
       anúncios. Não precisa de cartão de crédito.
     </h4>
+    <h3>Desenvolvido por Pietro.</h3>
     <div className={styles.subgrat}>
       <button>inscreva-se grátis</button>
     </div>
